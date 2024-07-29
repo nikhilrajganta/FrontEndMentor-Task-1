@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .profile-img {
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+      }
+      .bio-text {
+        font-size: 16px;
+        color: #f0f0f0;
+        font-weight: 400;
+      }
+      .name {
+        color: #e0e0e0;
+      }
+      .location {
+        color: hsl(85, 90%, 50%);
+        margin-top: -8px;
+      }
+      .action-button {
+        background-color: hsl(0, 0%, 15%);
+        color: #f0f0f0;
+        width: 320px;
+        margin: 10px;
+        padding: 12px;
+        border-radius: 8px;
+        border: none;
+        font-family: "Arial", sans-serif;
+        font-weight: 600;
+      }
+      .wrapper {
+        position: relative;
+        left: 7%;
+        width: 35%;
+        display: flex;
+        font-family: "Arial", sans-serif;
+      }
+
+      .profile-box {
+        background-color: #1a1a1a;
+        border: 1px solid #333;
+        padding: 25px;
+        text-align: center;
+        border-radius: 5%;
+      }
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #121212;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="profile-box">
+        <img
+          src="assets/portfolio-image.jpg"
+          alt="Profile Picture"
+          class="profile-img"
+        />
+        <h2 class="name">Jessica Randall</h2>
+        <h5 class="location">London, United Kingdom</h5>
+        <p class="bio-text">"Front-end developer and avid reader."</p>
+
+        <button class="action-button">GitHub</button><br />
+        <button class="action-button">Frontend Mentor</button><br />
+        <button class="action-button">LinkedIn</button><br />
+        <button class="action-button">Twitter</button><br />
+        <button class="action-button">Instagram</button><br />
+      </div>
+    </div>
+  </body>
+</html>
